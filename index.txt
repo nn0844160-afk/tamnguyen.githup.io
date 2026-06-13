@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUJIWA - Nước Ion Kiềm Nhật Bản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">FUJIWA</div>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>FUJIWA - Nước Ion Kiềm Chuẩn Nhật Bản</h1>
+    <p>Vì sức khỏe cộng đồng - Nâng tầm chất lượng cuộc sống.</p>
+    <button onclick="showMessage()">Tìm hiểu thêm</button>
+</section>
+
+<section id="about">
+    <h2>Giới thiệu</h2>
+    <p>
+        Fujiwa là thương hiệu nước ion kiềm ứng dụng công nghệ điện giải tiên tiến từ Nhật Bản,
+        mang đến nguồn nước tốt cho sức khỏe và hỗ trợ lối sống lành mạnh.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Sản phẩm nổi bật</h2>
+
+    <div class="product-container">
+        <div class="product-card">
+            <h3>Nước Ion Kiềm Fujiwa</h3>
+            <p>Độ pH 8.5 - 9.5, giàu Hydrogen.</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Máy lọc nước Ion Kiềm</h3>
+            <p>Công nghệ điện giải hiện đại.</p>
+        </div>
+
+        <div class="product-card">
+            <h3>Nước uống đóng chai</h3>
+            <p>Tiện lợi cho cuộc sống năng động.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Liên hệ</h2>
+    <p>Email: info@fujiwa.vn</p>
+    <p>Hotline: 1900 xxxx</p>
+</section>
+
+<footer>
+    <p>© 2026 FUJIWA Việt Nam. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
